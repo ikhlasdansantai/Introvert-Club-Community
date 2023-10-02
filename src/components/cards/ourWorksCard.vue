@@ -8,7 +8,7 @@
   </figure>
   <div class="author flex items-center mt-4 gap-3">
     <figure class="w-10 sm:w-12 rounded-full overflow-hidden border-2 border-slate-500">
-      <img :src="imgAuthor" alt="author IMG" />
+      <img :src="imgAuthor" alt="author IMG" loading="lazy" />
     </figure>
     <h4 class="font-medium sm:text-lg">{{ authorName }}</h4>
   </div>
