@@ -18,14 +18,15 @@
       </figure>
 
       <section id="bakat" class="mt-40">
-        <h2 class="font-bold text-2xl">Menunjukan bakat emas mu</h2>
+        <h2 class="font-bold text-2xl">Tunjukkan Bakat Emasmu!</h2>
         <p class="mt-2">
-          Ada juga salah satu postingan, dimana dia sangat berbakat dalam bidang menggambar, mungkin di grup itu juga banyak orang berbakat seperti dia, yang mungkin saja <i>Malu</i> untuk menunjukannya, sehingga dia gak PD untuk itu.
+          Ada juga satu postingan menarik di mana dia punya keahlian dalam menggambar. Mungkin di grup ini ada banyak orang lain yang punya talenta serupa, tapi mereka mungkin merasa ragu untuk menunjukkannya, jadi dia tidak terlalu percaya
+          diri.
         </p>
         <figure class="my-4">
           <img :src="inspiration2IMG" alt="inspirationIMG" />
         </figure>
-        <p>Sehingga sekarang kami mencoba untuk membuat komunitas lebih luas lewat layanan bernama <b>Discord</b>, yang harapannya adalah bisa meraih dan mengajak lebih banyak orang untuk bergabung dengan komunitas kami.</p>
+        <p>Jadi, sekarang kami mencoba membuat komunitas lebih inklusif melalui layanan bernama <b>Discord</b>. Kami berharap dapat mengundang lebih banyak orang untuk bergabung dengan komunitas kami.</p>
       </section>
 
       <section id="goals" class="mt-40">
