@@ -6,7 +6,7 @@ import { Navbar, NavbarLogo, NavbarCollapse, NavbarLink } from "flowbite-vue";
   <nav id="nav" class="fixed left-0 right-0 w-full px-4 z-50">
     <Navbar>
       <template #logo>
-        <h2 class="font-semibold text-lg">Introvert Club</h2>
+        <RouterLink to="/" class="font-semibold text-lg">Introvert Club</RouterLink>
       </template>
       <template #default="{ isShowMenu }">
         <NavbarCollapse :isShowMenu="isShowMenu" class="text-[#646cff]">
