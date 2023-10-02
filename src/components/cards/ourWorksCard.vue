@@ -15,6 +15,7 @@
 </template>
 
 <script setup>
+import { Icon } from "@iconify/vue";
 defineProps({
   imgContent: "string",
   imgAuthor: "string",
@@ -22,6 +23,4 @@ defineProps({
   authorName: "string",
   iconType: "string",
 });
-
-import { Icon } from "@iconify/vue";
 </script>
