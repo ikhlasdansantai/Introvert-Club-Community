@@ -26,29 +26,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* #app {
-  padding: 1rem;
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 } */
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 p {
   color: #848484;
 }
+
+.btn-prm {
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800;
+}
+/* Handle ourWorksCard comp */
+.project-details {
+  @apply absolute bottom-0 left-0 right-0 py-8 px-8 bg-[#0d0c22] bg-opacity-60 translate-y-20 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500 flex items-center justify-between gap-10;
+}
+
 /* body {
   margin: 0;
   display: flex;

@@ -18,6 +18,10 @@ const router = createRouter({
       name: "tentang-kami",
       component: async () => import("../views/AboutViews.vue"),
     },
+    {
+      path: "/:notFound",
+      component: async () => import("../views/NotFound.vue"),
+    },
   ],
 });
 

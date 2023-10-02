@@ -1,8 +1,6 @@
 <script>
 import HeaderIMG from "../assets/HeaderIMG.jpg";
-// import Navbar from "./Navbar.vue";
 export default {
-  // components: { Navbar },
   data() {
     return {
       img: HeaderIMG,
@@ -14,7 +12,6 @@ export default {
 
 <template>
   <header id="header" class="max-w-7xl mx-auto">
-    <!-- <Navbar /> -->
     <div class="header-contents grid sm:grid-cols-2 justify-between items-center space-x-10 space-y-12 py-20 border-red-800">
       <div class="header-title text-left">
         <h2 class="text-2xl sm:text-3xl md:leading-normal md:text-4xl lg:text-[52px] max-w-[20ch] font-bold">{{ title }}</h2>

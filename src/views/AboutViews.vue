@@ -14,7 +14,7 @@
       </secition>
 
       <figure class="mb-10 mt-4 bg-red-50">
-        <img :src="catGIF" alt="" class="mx-auto" />
+        <img :src="catGIF" alt="cat icon" class="mx-auto" />
       </figure>
 
       <section id="bakat" class="mt-40">
@@ -41,7 +41,6 @@
         </ul>
       </section>
     </div>
-    <!-- <Sidebar /> -->
   </div>
 </template>
 
@@ -49,5 +48,4 @@
 import inspirationIMG from "../assets/inspiration.png";
 import inspiration2IMG from "../assets/inspiration-2.png";
 import catGIF from "../assets/GIF/cat.gif";
-import Sidebar from "../components/Sidebar.vue";
 </script>
