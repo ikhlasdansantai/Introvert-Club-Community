@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import DIWebsite from "../assets/our-works-images/Di-website.png";
-import RenzAura from "../assets/our-works-images/RenzAura.png";
+import DIWebsite from "../assets/our-works-images/Website/DIWeb.png";
+import RenzAura from "../assets/our-works-images/Website/RenzAuraWeb.png";
 import RenzMakeup from "../assets/our-works-images/Website/RenzMakeup.png";
 import imgAuthor from "../assets/Ayang.jpg";
 import MyProgressIG from "../assets/our-works-images/Instagram/MyProgress.png";
