@@ -4,7 +4,7 @@
       <h2 class="font-semibold text-xl md:mt-20">Karya Website</h2>
       <div class="websites-contents grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-4">
         <div class="our-works-card" v-for="(websiteData, index) in websites" :key="index">
-          <ourWorksCard :title="websiteData.title" :imgContent="websiteData.imgContent" :imgAuthor="websiteData.imgAuthor" :authorName="websiteData.authorName" :iconType="websiteData.icon" />
+          <ourWorksCard :title="websiteData.title" :imgContent="websiteData.imgContent" :imgAuthor="websiteData.imgAuthor" :authorName="websiteData.authorName" :iconType="websiteData.icon" :linkPath="websiteData.link" />
         </div>
       </div>
     </div>
@@ -12,13 +12,12 @@
       <h2 class="font-semibold text-xl mt-10 md:mt-20">Karya Instagram</h2>
       <div class="websites-contents grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-4">
         <div class="our-works-card" v-for="(instagramData, index) in instagram" :key="index">
-          <ourWorksCard :title="instagramData.title" :imgContent="instagramData.imgContent" :imgAuthor="instagramData.imgAuthor" :authorName="instagramData.authorName" :iconType="instagramData.icon" />
+          <ourWorksCard :title="instagramData.title" :imgContent="instagramData.imgContent" :imgAuthor="instagramData.imgAuthor" :authorName="instagramData.authorName" :iconType="instagramData.icon" :linkPath="instagram.link" />
         </div>
       </div>
     </div>
   </div>
 </template>
-
 <script>
 import DIWebsite from "../assets/our-works-images/Website/DIWeb.png";
 import RenzAura from "../assets/our-works-images/Website/RenzAuraWeb.png";
@@ -27,7 +26,6 @@ import imgAuthor from "../assets/Ayang.jpg";
 import MyProgressIG from "../assets/our-works-images/Instagram/MyProgress.png";
 import RenzAuraIG from "../assets/our-works-images/Instagram/RenzAura.png";
 import ourWorksCard from "../components/cards/ourWorksCard.vue";
-
 export default {
   components: { ourWorksCard },
   data() {
@@ -39,7 +37,7 @@ export default {
           title: "Introvert Club Website",
           authorName: "Ikhlasdansantai",
           icon: "iconoir:globe",
-          link: "",
+          link: "https://introvert-club.vercel.app/",
         },
         {
           imgContent: RenzAura,
@@ -47,7 +45,7 @@ export default {
           title: "RenzAura Website",
           authorName: "Ikhlasdansantai",
           icon: "iconoir:globe",
-          link: "",
+          link: "https://renz-aura.vercel.app/",
         },
         {
           imgContent: RenzMakeup,
@@ -55,7 +53,7 @@ export default {
           title: "RenzMakeup Website",
           authorName: "Ikhlasdansantai",
           icon: "iconoir:globe",
-          link: "",
+          link: "https://ikhlasdansantai.github.io/renz-makeup/",
         },
       ],
       instagram: [
@@ -65,7 +63,7 @@ export default {
           title: "Learning Recap",
           authorName: "Ikhlasdansantai",
           icon: "mdi:instagram",
-          link: "",
+          link: "https://www.instagram.com/myprogress.ik/",
         },
         {
           imgContent: RenzAuraIG,
@@ -73,7 +71,7 @@ export default {
           title: "Renz Aura",
           authorName: "Ikhlasdansantai",
           icon: "mdi:instagram",
-          link: "",
+          link: "https://www.instagram.com/renz_aura/",
         },
       ],
     };
