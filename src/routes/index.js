@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -18,7 +17,10 @@ const router = createRouter({
       name: "tentang-kami",
       component: async () => import("../views/AboutViews.vue"),
     },
+    {
+      path: "/:notFound",
+      component: async () => import("../views/NotFound.vue"),
+    },
   ],
 });
-
 export default router;
