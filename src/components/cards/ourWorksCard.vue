@@ -3,7 +3,7 @@
     <img :src="imgContent" alt="DI Website" loading="lazy" />
     <div class="project-details">
       <h2 class="text-xl text-white">{{ title }}</h2>
-      <Icon :icon="iconType" class="text-white text-4xl" />
+      <Icon :icon="iconType" class="text-white text-4xl" @click="() => handleLink(linkPath)" />
     </div>
   </figure>
   <div class="author flex items-center mt-4 gap-3">
@@ -13,7 +13,6 @@
     <h4 class="font-medium sm:text-lg">{{ authorName }}</h4>
   </div>
 </template>
-
 <script setup>
 import { Icon } from "@iconify/vue";
 defineProps({
@@ -22,5 +21,9 @@ defineProps({
   title: "string",
   authorName: "string",
   iconType: "string",
+  linkPath: "string",
 });
+function handleLink(link) {
+  window.location.href = link;
+}
 </script>
