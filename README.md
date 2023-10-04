@@ -73,6 +73,6 @@ git commit -m "pesan commit"
 git push origin fitur-saya
 ```
 <p align="left">Untuk pull request, disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan serta selalu berterima kasih. Itu salah satu bentuk tata krama yang baik terhadap sesama contributor dan programmer lainnya.</p>
-<p align="left">Hubungi Kami:<br>Jika Anda memiliki pertanyaan atau butuh bantuan, Anda dapat menghubungi kami melalui email di [email@example.com] atau melalui saluran komunikasi proyek di Discord atau Slack.</p>
+<p align="left">Hubungi Kami:<br>Jika Anda memiliki pertanyaan atau butuh bantuan, Anda dapat menghubungi kami melalui email di [Server Discord](https://discord.gg/a5X4rC98WR) atau melalui saluran komunikasi proyek di Discord atau Slack.</p>
 
 <p align="left">Terima kasih telah berkontribusi untuk AwesomeContributor! Kami menghargai partisipasi Anda dalam pengembangan proyek ini.</p>
