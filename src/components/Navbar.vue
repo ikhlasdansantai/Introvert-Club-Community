@@ -3,8 +3,8 @@ import { Navbar, NavbarLogo, NavbarCollapse, NavbarLink } from "flowbite-vue";
 </script>
 
 <template>
-  <nav id="nav" class="fixed left-0 right-0 w-full px-4 z-50">
-    <Navbar class="p-4 max-w-7xl mx-auto">
+  <header id="header" class="fixed left-0 right-0 w-full px-4 z-50 bg-white">
+    <Navbar id="nav" class="p-4 max-w-7xl mx-auto">
       <template #logo>
         <RouterLink to="/" class="font-semibold text-lg">Introvert Club</RouterLink>
       </template>
@@ -16,5 +16,5 @@ import { Navbar, NavbarLogo, NavbarCollapse, NavbarLink } from "flowbite-vue";
         </NavbarCollapse>
       </template>
     </Navbar>
-  </nav>
+  </header>
 </template>
