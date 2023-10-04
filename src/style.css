@@ -26,3 +26,7 @@ p {
 .project-details {
   @apply absolute bottom-0 left-0 right-0 py-8 px-8 bg-[#0d0c22] bg-opacity-60 translate-y-20 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500 flex items-center justify-between gap-10;
 }
+
+.h2-heading {
+  @apply font-bold text-2xl;
+}

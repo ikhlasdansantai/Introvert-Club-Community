@@ -8,6 +8,5 @@
 </template>
 
 <script setup>
-// import notFoundIcon from "../assets/GIF/not-found.gif";
 import notFoundIcon from "../assets/not-found.svg";
 </script>

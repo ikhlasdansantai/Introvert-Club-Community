@@ -11,8 +11,6 @@ import { Navbar, NavbarLogo, NavbarCollapse, NavbarLink } from "flowbite-vue";
       <template #default="{ isShowMenu }">
         <NavbarCollapse :isShowMenu="isShowMenu" class="text-[#646cff]">
           <RouterLink to="/">Home</RouterLink>
-          <!-- Soon -->
-          <!-- <NavbarLink link="#">Tim Web Kami</NavbarLink> -->
           <RouterLink to="/karya-kami" class="my-4 md:m-0">Karya Kami</RouterLink>
           <RouterLink to="/tentang-kami">Tentang Kami</RouterLink>
         </NavbarCollapse>

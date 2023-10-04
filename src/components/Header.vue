@@ -9,7 +9,6 @@ export default {
   },
 };
 </script>
-
 <template>
   <header id="header" class="max-w-7xl mx-auto">
     <div class="header-contents grid sm:grid-cols-2 justify-between items-center space-x-10 space-y-12 py-20 border-red-800">

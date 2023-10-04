@@ -1,6 +1,6 @@
 <template>
   <section id="Intovert-Definition">
-    <h2 class="font-bold text-2xl">Kenali apa itu introvert</h2>
+    <h2 class="h2-heading">Kenali apa itu introvert</h2>
     <div class="cards-container grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-10 mt-4">
       <div v-for="(cardData, index) of cardDatas" :key="index" class="Introvert-Definition-Card">
         <IntrovertDefinitionCard :title="cardData.title" :desc="cardData.desc" :img="cardData.img" />
