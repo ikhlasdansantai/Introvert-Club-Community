@@ -1,9 +1,14 @@
 <script setup>
 import { Navbar, NavbarLogo, NavbarCollapse, NavbarLink } from "flowbite-vue";
+import { onMounted } from "vue";
+import AOS from "aos";
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 <template>
-  <header id="header" class="fixed left-0 right-0 w-full px-4 z-50 bg-white">
+  <header id="header" class="fixed left-0 right-0 w-full px-4 z-50 bg-white" data-aos="fade-down" data-aos-duration="1500">
     <Navbar id="nav" class="p-4 max-w-7xl mx-auto">
       <template #logo>
         <RouterLink to="/" class="font-semibold text-lg">Introvert Club</RouterLink>
