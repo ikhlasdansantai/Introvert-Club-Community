@@ -91,7 +91,7 @@ export default {
           imgContent: cmjtvYT,
           imgAuthor: cmjtvAuthor,
           title: "Asep Aziz - Untuk Sejenak",
-          authorName: "Asep Aziz",
+          authorName: "CMJTV",
           icon: "mdi:youtube",
           link: "https://www.youtube.com/watch?v=QQXzEkuHyns",
         },
